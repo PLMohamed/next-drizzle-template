@@ -2,11 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 
 
 const AUTH_PAGES = [];
-const AUTH_API = [
-    "/api/v1/clients/auth/login",
-    "/api/v1/clients/auth/signup",
-    "/api/v1/clients/auth/forgot-password",
-];
+const AUTH_API = [];
 
 const CONN_PAGES = [];
 const CONN_API = [];
